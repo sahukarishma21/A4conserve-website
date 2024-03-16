@@ -1,0 +1,33 @@
+.slider-container {
+    width: 80%; 
+    margin-bottom: 10%;
+    margin-top: 90px;
+    
+  
+  }
+  
+  
+  .para {
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 20px; /* Add space below the paragraph */
+  }
+  
+  .butt {
+    display: flex;
+    
+  }
+  .slider-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; /* Adjust as needed */
+    padding: 10px; /* Add padding around each slide */
+  
+  }
+  
+  .slider-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add space below each image */
+  }

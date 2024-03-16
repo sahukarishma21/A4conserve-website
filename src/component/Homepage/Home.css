@@ -1,0 +1,62 @@
+.homeimage{
+    height: 130%;
+    padding: 20px;
+    padding-top: 50px;
+    width: 100vw;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    /* Modify the polygon points as needed for your desired shape */
+    
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.primary-heading{
+    font-size: 3rem;
+    color: green;
+   
+  
+}
+.heading{
+    
+    display: flex;
+}
+
+/* Home Component CSS for Mobile View */
+@media only screen and (max-width: 768px) {
+    .home-container {
+      padding: 20px; /* Add padding */
+      box-sizing: border-box;
+    }
+  
+    .home-banner-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .home-text-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .primary-heading {
+      font-size: 28px; /* Adjust font size */
+      margin-bottom: 10px;
+    }
+  
+    .heading {
+      font-size: 50px; /* Adjust font size */
+      margin-bottom: 10px;
+    }
+  
+    .primary-text {
+      font-size: 30px; /* Adjust font size */
+      margin-bottom: 20px;
+    }
+  
+    .home-image-section img {
+      width: 100%;
+      height: auto; /* Ensure image responsiveness */
+    }
+  }

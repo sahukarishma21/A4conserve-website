@@ -1,0 +1,115 @@
+.Card_section{
+    height: 200vh;
+    margin-top: 0;
+    padding-top: 30%;
+    margin-bottom: 0;
+   
+}
+.cardCard_section{
+  margin-top: 30%;
+}
+.Card__container{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.Card__items{
+    background-color: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    background-color: gray;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.Card__items:hover{
+    border-color: var(--color-primarry-variant);
+    background:rgb(7, 61, 19);
+    transform: translateY(-10px) rotateX(10deg);
+
+}
+.Card__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    
+}
+.Card__items h3{
+    margin: 1rem 0 1rem ;
+    font-size: large;
+   
+}
+.Card__items p{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+.Card__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+/* medium device TABLATE */
+@media screen and (max-width:1024px) {
+.Card__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+}
+}
+
+/* small device MOBILE */
+@media screen and (max-width:600px) {
+    .Card__container{
+        grid-template-columns:  1fr;
+        gap: 1rem;
+    }
+}
+/* Card Component CSS for Mobile View */
+@media only screen and (max-width: 768px) {
+    .Card__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Card__items {
+      width: 100%;
+      margin-bottom: 30px; /* Adjust margin */
+    }
+  
+    .Card__item-image {
+      width: 100%;
+      margin-bottom: 10px; /* Adjust margin */
+    }
+  
+    .Card__item-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .Card__items h3 {
+      font-size: 24px; /* Adjust font size */
+      text-align: center; /* Center align */
+    }
+  
+    .Card__items p {
+      font-size: 16px; /* Adjust font size */
+      text-align: center; /* Center align */
+      margin: 0; /* Remove default margin */
+    }
+  
+    .Card__item-cta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }

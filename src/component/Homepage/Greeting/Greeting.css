@@ -1,0 +1,137 @@
+.program {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: green;
+   padding-left: 20%;
+  }
+  .title{
+    font: size 50px;
+    text-align: center;
+    padding-right: 200px;
+  }
+  
+  .program-row {
+    display: flex;
+    
+    flex-direction: row;
+  }
+  .program-card {
+    
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40vw;
+    height: 60vh;
+    background-color:gray;
+  }
+  .program-card:hover{
+    background-color:rgb(11, 68, 11);
+  }
+  
+  .program-card-image {
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    color:black;
+    margin-top: 15px;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .additional-text {
+    font-size: 50px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .text{
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .card-button {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: grey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    padding-bottom: 10Px;
+  }
+  
+  .card-button:hover {
+    background-color:rgb(11, 68, 11); /* Adjust the color for the hover effect */
+    color: white; /* Adjust the color for the hover effect */
+    border-color: #555; /* Adjust the color for the hover effect */
+  }
+  /* Greeting Component CSS for Mobile View */
+@media only screen and (max-width: 768px) {
+  .program {
+    padding: 20px; /* Add padding */
+  }
+
+  .title {
+    font-size: 24px; /* Adjust font size */
+    text-align: center; /* Center align */
+  }
+
+  .section-title {
+    font-size: 20px; /* Adjust font size */
+    text-align: center; /* Center align */
+    margin-top: 20px; /* Adjust margin */
+  }
+
+  .text {
+    font-size: 16px; /* Adjust font size */
+    text-align: center; /* Center align */
+    margin-top: 20px; /* Adjust margin */
+  }
+
+  .program-row {
+    display: flex;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center align */
+  }
+
+  .program-card {
+    margin-bottom: 20px; /* Adjust margin */
+    text-align: center; /* Center align */
+  }
+
+  .program-card-image {
+    width: 100%; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+
+  .card-title {
+    font-size: 18px; /* Adjust font size */
+    margin-bottom: 5px; /* Adjust margin */
+  }
+
+  .card-description {
+    font-size: 14px; /* Adjust font size */
+  }
+}

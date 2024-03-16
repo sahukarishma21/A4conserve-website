@@ -1,0 +1,79 @@
+.avant-innovative {
+    width: 100%;
+    max-width:900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgb(5, 71, 5);
+    color: white;
+    transition: transform 0.3s ease;
+    height: 20%;
+
+  }
+  .avant-innovative:hover{
+    background-color: rgb(23, 38, 197);
+    animation-name: fadeBackground;
+    animation-duration: 2.5s;
+    transform: translateX(20px);
+  }
+  @keyframes fadeBackgroud {
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color:rgb(4, 4, 71) ;
+    }
+    
+  }
+  
+  .avant-innovative .speedometer-icon {
+   
+    padding-right: 50%;
+  }
+ 
+    
+
+  
+  .avant-innovative h1,
+  .avant-innovative h2 {
+    margin: 0 0 15px;
+  }
+  
+  .avant-innovative .features {
+    display: flex;
+    flex-wrap: wrap;
+   padding-left: 50%;
+   flex-direction:column ;
+   justify-content: flex-start;
+   align-items: start;
+ column-gap: 0;
+  
+    
+  }
+  
+  .avant-innovative .feature {
+    flex-basis: calc(33.333% - 20px);
+    margin: 0 10px 20px;
+    text-align: left;
+  }
+
+  .avant-innovative .feature h3 {
+    margin: 0 0 10px;
+  }
+  
+  .avant-innovative .feature p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .avant-innovative .feature {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .avant-innovative .feature {
+      flex-basis: 100%;
+    }
+  }

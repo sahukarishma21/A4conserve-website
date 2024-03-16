@@ -1,0 +1,61 @@
+.contact-container {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    flex-wrap: wrap; /* Enable wrapping for multiple rows */
+    background-color: white;
+   
+}
+  
+  .contact {
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    padding: 20px;
+    width: 200px; /* Adjust width as needed */
+    margin: 10px;
+    margin-bottom: 20px; /* Add margin to the bottom */
+    border-color: black;
+  }
+  
+  .contact-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .react-icon {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .arrow {
+    font-size: 11px;
+    margin-top: 10px;
+    display: flex;
+    font-weight: bolder; 
+    color: black;/* Add margin between description and arrow */
+  }
+  
+  .contact-header h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 40px; /* Adjust size as needed */
+    color: #333; /* Adjust color as needed */
+    padding-left: 50px;
+  }
+  
+  /* Style for h4 elements */
+  .contact h4 {
+    margin: 0; /* Remove default margin */
+    font-size: 20px; /* Adjust size as needed */
+    color: #555;
+    padding-left: 30px;
+  }

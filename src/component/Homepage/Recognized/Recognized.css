@@ -1,0 +1,47 @@
+.slider-container {
+    width: 80%; /* Adjust the width as per your layout */
+    margin: 0 auto; /* Center the slider horizontally */
+   padding-bottom: 30px;
+  }
+  
+  .slider-item {
+    text-align: center; /* Center align the content inside the slider */
+  }
+  
+  .slider-item img {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Customize the dots style */
+  .slick-dots {
+    bottom: 20px; /* Adjust the position of the dots */
+  }
+  
+  .slick-dots li button:before {
+    color: #fff; /* Change the color of the dots */
+  }
+  
+  /* Customize the dots when active */
+  .slick-dots li.slick-active button:before {
+    color: #ff5733; /* Change the color of active dot */
+  }
+  
+  h1{
+    align-items: center;
+   
+    padding-left: 35%;
+    font-size: 2.5rem;
+  }
+  .reco{
+    margin-left: 9%;
+  }
+  @media (max-width: 768px) {
+    .slider-container {
+      width: 100%;
+    }
+  
+    .slick-slide {
+      padding: 0 5px;
+    }
+  }

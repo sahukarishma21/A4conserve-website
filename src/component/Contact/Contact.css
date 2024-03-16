@@ -1,0 +1,51 @@
+.contactcontainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(183, 150, 215);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.contact-item{
+    width: 90%;
+    height: 600px;
+    
+    background-color: rgb(52, 19, 160);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgb(0,0,0,.4);
+    overflow: scroll;
+    padding-bottom: 40%;
+}
+.con-text{
+    color: white;
+   font-size: 2.3rem;
+   margin-left: 5%;
+   
+}
+.contimage{
+    height:50vh;
+   width: 40vw;
+    margin-left: 25%;
+    align-items: center; 
+    clip-path:  polygon(60% 0%, 100% 18%, 82% 100%, 18% 100%, 0% 8%);
+    border-radius: 50%;
+}
+
+.second-text{
+    color: white;
+    text-align: center;
+    margin-left: 37%;
+    font-size: 1.5rem;
+}
+
+.support-card{
+    display: flex;
+    
+    
+}       
+  
+    .contactpara{
+        font-size: 1rem;
+    }

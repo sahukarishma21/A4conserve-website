@@ -1,0 +1,96 @@
+.company-info-container{
+  width: 80vw;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color:  rgb(6, 60, 6);
+  display: flex;
+  padding-right: 70%;
+  height: 70vh;
+ margin-top: 10px;
+ margin-bottom: 50px;
+ 
+ 
+}
+.company-info-container:hover{
+  background-color: rgb(7, 82, 92);
+  animation-name: fadeBackground;
+  animation-duration: 2.5s;
+  transform: translateX(10px);
+}
+@keyframes fadeBackgroud {
+  from{
+      background-color: transparent;
+  }
+  to{
+      background-color:rgb(4, 4, 71) ;
+  }
+  
+}
+.company-description {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.company-name {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.company-vision,
+.company-mission,
+.company-goal,
+.services-title {
+  color:rgb(243, 243, 19);
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2{
+  justify-content: space-between;
+  padding-left: 60%;
+  
+}
+.aboutpara{
+  padding-top: 40%;
+  color: whitesmoke;
+  padding-right: 80%;
+  font-size: 1rem;
+  margin-top: 10%;
+
+}
+.abouthead{
+  text-align: center;
+  font-size: 2.4rem;
+  align-items: center;
+  color: black;
+  margin-right: 25%;
+  margin-top: 0%;
+  gap: 0%;
+}
+/* About Component CSS for Mobile View */
+@media only screen and (max-width: 768px) {
+.abouthead {
+  font-size: 24px; /* Adjust font size */
+  text-align: center; /* Center align the heading */
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+.company-info-container {
+  padding: 0 20px; /* Adjust padding */
+}
+
+.company-vision,
+.company-mission,
+.company-goal {
+  font-size: 18px; /* Adjust font size */
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.aboutpara {
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+}

@@ -1,0 +1,121 @@
+.lastheadcontainer {
+    padding: 20px;
+    text-align: center; /* Center align the text within the container */
+  }
+  
+  .lastlogolandingpage{
+    height: 100px;
+    
+    
+    margin-top: 10%;
+  }
+  .landingheadlast{
+    padding-top:10px ;
+    margin-left: 50%;
+  }
+  
+  .lastheader-content {
+    display: flex;
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+  }
+  .lastheader-box {
+    background-color: #155024;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex; /* Display children in a row */
+    align-items: center; /* Align children vertically */
+    width: 100%;
+    height: 15vh;
+  }
+  
+  .lastheader-text {
+    display: inline-block; /* Ensure h3 and h1 are displayed inline */
+  }
+  
+  .lastheader-text h3, 
+  .lastheader-text h1 {
+    margin: 0 20px; 
+   /* Adjust margin for h3 and h1 */
+  }
+  
+  .lastget-started-button {
+   background-color: green;
+   margin-left: 50%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 25vh;
+    font-size: 15px;
+    color: white;
+  }
+  .lastget-started-button:hover{
+    background-color:rgb(4, 49, 49);
+    color:white;
+  }
+  
+  .landingsections {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .landing-logo {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Display children in a column */
+    align-items: center; /* Center align items horizontally */
+  }
+  
+  .office-address {
+    display: flex;
+    flex-direction: column; /* Display children in a column */
+    align-items: center; /* Center align items horizontally */
+    margin-top: 20px;
+    /* Add margin-top to separate sections */
+  }
+  
+  .branch-office,
+  .head-office {
+    margin: 0;
+    color: rgb(2, 51, 14);
+    
+    
+    margin-bottom: 30px; /* Add margin-top for spacing between addresses */
+  }
+  .branch-office h3,
+  .head-office h3 {
+    font-size: 20px;
+  }
+  
+  .branch-office p,
+  .head-office p {
+    font-size: 17px;
+  }
+  
+  
+  .landing-resources,
+  .landing-company,
+  .landing-last-social {
+    flex: 1;
+    text-align: center;
+    margin-top: 20px; /* Added margin-top to separate sections */
+    
+  }
+  
+  .last-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .last-li {
+    margin-bottom: 10px;
+    margin-left: 60%;
+  }
+  .heading2{
+    margin-bottom: 10%;
+  }
+  .branch-office2,.head-office2{
+    display: flex;
+  }
